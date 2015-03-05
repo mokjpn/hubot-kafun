@@ -1,0 +1,19 @@
+{
+  "name": "hubot-kafun",
+  "version": "0.0.1",
+  "description": "Hubot plugin to say pollen status around Tsukuba city",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mokjpn/hubot-kafun"
+  },
+  "author": "Masafumi Okada",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/mokjpn/hubot-kafun/issues"
+  },
+  "homepage": "https://github.com/mokjpn/hubot-kafun"
+}
