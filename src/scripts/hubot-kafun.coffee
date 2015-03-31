@@ -18,12 +18,12 @@ parensRegex = /(^\(|\);?\s*$)/
 functionRegex = /^[a-z\d_\.]*\(/i
 
 commentsmily = {
-  "少ない" : ":relaxed:"
-  "やや多い" :":worried:"
-  "多い":":cry:"
-  "非常に多い":":sob:"
-  "猛烈に多い":":scream:"
-  "死ぬほど多い":":skull:"
+  "少ない" : ":pig:"
+  "やや多い" :":pig::pig:"
+  "多い":":pig::pig::pig:"
+  "非常に多い":":pig::pig::pig::pig:"
+  "猛烈に多い":":pig_nose::pig_nose::pig_nose::pig_nose::pig_nose:"
+  "死ぬほど多い":":pig_nose::pig_nose::pig_nose::pig_nose::pig_nose::pig_nose:"
 }
 
 module.exports = (robot) ->
@@ -50,7 +50,7 @@ module.exports = (robot) ->
             dif["index"] = i
         pd = d[dif["index"]]
         comment = pd.comment + commentsmily[pd.comment]
-        msg.send("#{pd.hour}時の#{monitor}測定の花粉飛散量は #{pd.pollen} 個/m3で、 #{comment}です。")
+        msg.send("#{pd.hour}時の#{monitor}測定の花豚飛散量は #{pd.pollen} 個/m3で、 #{comment}です。")
       )
     )
 
